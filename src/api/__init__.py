@@ -1,0 +1,1 @@
+# Módulos para la conexión con APIs externas (MetaTrader 5, forex-python).

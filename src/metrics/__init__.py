@@ -1,0 +1,1 @@
+# Lógica matemática para el cálculo de KPIs financieros y métricas de riesgo.
