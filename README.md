@@ -4,9 +4,8 @@
 
 ## 🚀 Características Principales (Roadmap)
 - **Extracción de Datos Nativos:** Conexión directa con la terminal de MetaTrader 5 utilizando la librería oficial `MetaTrader5` de Python para extraer el historial de operaciones y convertirlos en DataFrames de `pandas`.
-- **Cotizaciones en Tiempo Real:** Integración con `forex-python` para obtener los tipos de cambio actuales y calcular con precisión el valor del pip y la exposición.
 - **Métricas de Performance y Riesgo:** Visualización de KPIs clave (Win Rate, Profit Factor, Drawdown Máximo, Ratio de Sharpe) y curva de crecimiento de la cuenta.
-- **Calculadora de Tamaño de Posición:** Herramienta interactiva para determinar el lotaje exacto de una nueva operación basándose en un porcentaje máximo de riesgo sobre el capital actual y la distancia al Stop Loss.
+- **Calculadora de Tamaño de Posición:** Herramienta interactiva para determinar el tamaño de una nueva operación basándose en un porcentaje máximo de riesgo sobre el capital actual y la distancia al Stop Loss.
 
 ## 📂 Estructura Tentativa del Proyecto
 
@@ -16,7 +15,7 @@ MT5-Dash/
 ├── data/                   # Directorio para almacenar datos locales o volcados CSV temporales
 │
 ├── src/                    # Código fuente de la aplicación
-│   ├── api/                # Scripts para conectar con MT5 y forex-python
+│   ├── api/                # Scripts para conectar con MT5
 │   ├── processing/         # Limpieza, transformación y manejo de DataFrames de pandas
 │   ├── metrics/            # Lógica para cálculo de KPIs financieros y de riesgo
 │   └── ui/                 # Componentes visuales y layouts de Streamlit
@@ -28,7 +27,7 @@ MT5-Dash/
 └── README.md               # Documentación principal del repositorio
 ```
 
-## 🛠️ Requisitos Previos (Próximamente)
+## 🛠️ Requisitos Previos
 * **Sistema Operativo Windows:** La librería oficial `MetaTrader5` para Python está diseñada para funcionar exclusivamente en entornos Windows.
 * **MetaTrader 5:** La terminal de MT5 debe estar instalada, ejecutándose y con una sesión iniciada en tu cuenta de trading.
 * **Python 3.9+**
