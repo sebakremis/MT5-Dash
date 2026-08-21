@@ -24,6 +24,7 @@ MT5-Dash/
 ├── app.py                  # Archivo principal para ejecutar el dashboard de Streamlit
 ├── requirements.txt        # Dependencias del proyecto (pandas, streamlit, MetaTrader5, etc.)
 ├── .gitignore              # Archivos y carpetas ignorados por git (ej. venv, __pycache__)
+├── LICENSE                 # Licencia del proyecto
 └── README.md               # Documentación principal del repositorio
 ```
 
@@ -53,4 +54,7 @@ MT5-Dash/
    ```
 
 ## 📝 Licencia
-Este proyecto es de código abierto.
+Este repositorio se encuentra bajo una licencia de código abierto **MIT**. 
+Puedes usar, modificar y distribuir el código libremente para cualquier propósito.
+
+Para obtener más información, consulta el archivo [LICENSE](LICENSE).
