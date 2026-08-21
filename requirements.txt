@@ -1,0 +1,5 @@
+streamlit>=1.30.0
+pandas>=2.0.0
+MetaTrader5>=5.0.0
+forex-python>=1.8
+altair>=5.0.0
