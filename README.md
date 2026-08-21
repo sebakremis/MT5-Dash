@@ -1,8 +1,9 @@
-# MT5-Dash 📈
+# 📈 MT5-Dash  
+🚧 **App en construcción** 🚧
 
 **MT5-Dash** es un dashboard interactivo desarrollado en Python con [Streamlit](https://streamlit.io/). Su objetivo principal es monitorear el rendimiento del trading en Forex, analizar métricas de riesgo y calcular el tamaño óptimo de nuevas posiciones directamente a partir de los datos de MetaTrader 5 (MT5).
 
-## 🚀 Características Principales (Roadmap)
+## 🚀 Características Principales
 - **Extracción de Datos Nativos:** Conexión directa con la terminal de MetaTrader 5 utilizando la librería oficial `MetaTrader5` de Python para extraer el historial de operaciones y convertirlos en DataFrames de `pandas`.
 - **Métricas de Performance y Riesgo:** Visualización de KPIs clave (Win Rate, Profit Factor, Drawdown Máximo, Ratio de Sharpe) y curva de crecimiento de la cuenta.
 - **Calculadora de Tamaño de Posición:** Herramienta interactiva para determinar el tamaño de una nueva operación basándose en un porcentaje máximo de riesgo sobre el capital actual y la distancia al Stop Loss.
