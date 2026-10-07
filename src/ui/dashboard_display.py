@@ -1,9 +1,19 @@
 import streamlit as st
 import pandas as pd
 from src.metrics.risk_calculator import *
+from src.metrics.indicators import kpis_calculator
 
 def display_kpis(balance:float, deals:pd.DataFrame):
-    st.metric(label="Balance Actual", value=f"${balance:,.2f}")
+
+    # Calcular metricas
+    n_trades, win_rate, profit_factor = kpis_calculator(deals)
+
+    # Mostrar kpis
+    kpi1, kpi2, kpi3, kpi4 = st.columns(4)
+    kpi1.metric(label="Balance", value=f"${balance:,.2f}")
+    kpi2.metric(label="Trades", value=n_trades)
+    kpi3.metric(label="Win Rate", value=f"{win_rate:,.2f}%")
+    kpi4.metric(label="Profit Factor", value=f"{profit_factor:,.2f}%")
 
 
 def display_sidebar(balance:float):
