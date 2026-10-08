@@ -13,7 +13,7 @@ def display_kpis(balance:float, deals:pd.DataFrame):
     kpi1.metric(label="Balance", value=f"${balance:,.2f}")
     kpi2.metric(label="Trades", value=n_trades)
     kpi3.metric(label="Win Rate", value=f"{win_rate:,.2f}%")
-    kpi4.metric(label="Profit Factor", value=f"{profit_factor:,.2f}%")
+    kpi4.metric(label="Profit Factor", value=f"{profit_factor:,.2f}")
 
 
 def display_sidebar(balance:float):
